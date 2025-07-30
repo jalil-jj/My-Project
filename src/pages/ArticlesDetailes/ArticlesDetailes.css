@@ -1,0 +1,88 @@
+.articlesdetailes .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.details-blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.details-blog div span {
+    margin-left: 10px;
+}
+
+.parts-detailes {
+    width: 100%;
+    padding: 2rem;
+    font-family: 'IRANSans', sans-serif;
+}
+
+
+
+.parts-detailes img {
+    display: block;
+    margin: 2rem auto !important;
+    max-width: 100%;
+    width: 60%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.parts-detailes h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 2rem 0 1rem;
+}
+
+.parts-detailes h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 1.5rem 0 1rem;
+}
+
+.parts-detailes p {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2.2;
+    color: #333;
+}
+
+.parts-detailes ul {
+    padding-right: 2rem;
+}
+
+.parts-detailes ul li {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    font-weight: 300;
+    line-height: 2;
+    color: #444;
+}
+
+/* Seggust */
+
+.seggust .row {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+
+
+
+@media (max-width : 786px) {
+    .articlesdetailes .title {
+        font-size: 2rem;
+    }
+
+    .parts-detailes img {
+        width: 80%;
+        margin-top: 0 !important;
+    }
+}

@@ -1,0 +1,74 @@
+.wrapper {
+    display: flex;
+}
+
+.viseo-section {
+    flex: 4;
+}
+
+.video-show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.viseo-section video {
+    width: 80%;
+    height: 300px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.all-section {
+    flex: 1;
+    padding: 1rem;
+}
+
+.all-section a {
+    text-decoration: none;
+}
+
+.all-section .session-item {
+    padding: 5px;
+    border-bottom: 1px solid black;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.all-section .session-item:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 1rem;
+}
+
+.all-section .active .session-item {
+    background-color: lightgray;
+    font-weight: bold;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 1rem;
+}
+
+.session-item h4 {
+    color: black;
+}
+
+.session-item p {
+    font-size: 1.2rem;
+    color: black;
+}

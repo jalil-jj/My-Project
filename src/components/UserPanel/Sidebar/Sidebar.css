@@ -1,0 +1,85 @@
+ /* ============================== Content Sidebar Style ============================== */
+ .content-main {
+     margin: 3rem 0;
+ }
+
+ .sidebar__user {
+     background-color: #fff;
+     flex: 1;
+     width: 240px;
+     color: rgb(17, 16, 16);
+     padding: 20px;
+     box-shadow: 4px 0 15px rgba(0, 0, 0, 0.8);
+     border-radius: 20px 0 0 20px;
+     -webkit-border-radius: 20px 0 0 20px;
+     -moz-border-radius: 20px 0 0 20px;
+     -ms-border-radius: 20px 0 0 20px;
+     -o-border-radius: 20px 0 0 20px;
+     margin-top: 4rem;
+ }
+
+ .sidebar__user__name {
+     font-size: 1.7rem;
+     font-weight: bold;
+     background-color: #2bce56;
+     padding: 1rem;
+     border-radius: 20px;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     -ms-border-radius: 20px;
+     -o-border-radius: 20px;
+     width: 100%;
+     display: block;
+     margin-bottom: 2rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .sidebar__user ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ .sidebar__user li {
+     margin-bottom: 20px;
+ }
+
+ .sidebar__user a {
+    text-decoration: none;
+    color: rgb(19, 17, 17);
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+
+.sidebar__user a:hover {
+    background: #1cda26;
+    color: #fff;
+    transform: translateX(-5px);
+}
+
+.sidebar__user ul li a.active {
+    background-color: #1cda26;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+}
+
+ /* ============================== Content Sidebar Style ============================== */
+
+
+
+
+
+
+
+
+

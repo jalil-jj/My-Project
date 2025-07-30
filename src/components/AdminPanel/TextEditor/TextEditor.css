@@ -1,0 +1,8 @@
+.text-editor {
+    height: 400px !important;
+    min-height: 400px !important;
+  }
+
+  .text-editor .ck-editor__editable {
+    min-height: 300px !important;
+  }

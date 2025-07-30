@@ -1,0 +1,22 @@
+.AdminSessions{
+    flex: 4;
+}
+
+.wrapper{
+    padding: 0 3rem;
+}
+
+.table-wrapper {
+    padding: 3rem;
+    /* margin-top: 5rem; */
+}
+
+.table-wrapper h2 {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.table {
+    font-size: 1.5rem;
+}

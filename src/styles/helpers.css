@@ -1,0 +1,41 @@
+/* Start Helper Classes */
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.3;
+  position: relative;
+  color: transparent;
+  background-image: linear-gradient(90deg, #0ea5e9, #22c55e); /* آبی به سبز */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding-right: 3rem;
+  padding-top: 2rem;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 10%;
+  width: 6px;
+  height: 150%;
+  background: linear-gradient(to bottom, #22c55e, #0ea5e9);
+  border-radius: 999px;
+  box-shadow: 0 0 8px rgba(34, 197, 94, 0.5);
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  background: rgba(14, 165, 233, 0.1);
+  border-radius: 0 0 8px 8px;
+  z-index: -1;
+}
+/* Finish Helper Classes */

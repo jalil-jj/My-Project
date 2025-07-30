@@ -1,0 +1,27 @@
+
+.card{
+    width: 100%;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 1.5rem 0;
+}
+
+.card-body a {
+    font-size: 1.8rem;
+    background: linear-gradient(to bottom, #22c55e, #0ea5e9);
+    border: none;
+    display: block;
+}

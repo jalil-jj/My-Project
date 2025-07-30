@@ -1,0 +1,88 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, #22c55e, #0ea5e9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-family: "Vazirmatn", sans-serif;
+}
+
+.login-inputs-container {
+  width: 80%;
+  max-width: 500px;
+  height: auto;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+  padding: 2rem;
+}
+
+.login form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-error {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 4px;
+  font-weight: 500;
+  direction: rtl;
+}
+
+.login-switch {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.login-switch span {
+  color: #333;
+}
+
+.login-switch a {
+  margin-right: 0.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.login-switch a:hover {
+  color: #0056b3;
+}
+
+button[type="submit"] {
+  background: linear-gradient(to right, #22c55e, #0ea5e9);
+  border: none;
+  border-radius: 10px;
+  padding: 0.75rem;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  transform: scale(1.03);
+  background: linear-gradient(to right, #0ea5e9, #22c55e);
+}
+
+@media (max-width: 500px) {
+  .login-inputs-container {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .login {
+    font-size: 1.2rem;
+  }
+
+  button[type="submit"] {
+    font-size: 1.2rem;
+  }
+}

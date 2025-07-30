@@ -1,0 +1,18 @@
+.AdminNewaLetter {
+    flex: 4;
+}
+
+.table-wrapper {
+    padding: 3rem;
+
+}
+
+.table-wrapper h2 {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.table {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,13 @@
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.top p {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+}

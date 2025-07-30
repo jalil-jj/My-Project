@@ -1,0 +1,101 @@
+.admin-courses {
+    flex: 4;
+}
+
+.admin-courses .wrapper {
+    padding: 3rem;
+}
+
+.form-container {
+   width: 100%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    direction: rtl;
+    font-family: 'IRANSans', sans-serif;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #333;
+}
+
+input {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.2s ease;
+    width: 100%;
+}
+
+select {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    outline: none;
+    transition: border 0.2s ease;
+    width: 100%;
+    background-color: white;
+    appearance: none; /* برای حذف استایل پیش‌فرض */
+  }
+
+input:focus {
+    border-color: #007bff;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.submit-button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #28a745;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+
+.table-container{
+    padding: 3rem;
+  
+}
+
+.course-table-wrapper{
+    background-color: white;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}

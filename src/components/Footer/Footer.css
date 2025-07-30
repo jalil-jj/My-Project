@@ -1,0 +1,101 @@
+/* استایل اصلی فوتر */
+.footer {
+    margin-top: 4rem;
+    background-image: linear-gradient(90deg, #17cf5b, #7bb2cc);
+    padding: 3rem 1rem;
+    color: #f1f5f9;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* افزودن سایه برای برجسته کردن فوتر */
+}
+
+/* عنوان‌های فوتر */
+.footer-title {
+    font-size: 2rem;
+    color: #1f2937;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+/* متن "درباره ما" */
+.about-txt {
+    line-height: 1.8;
+    color: #333;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+/* لیست اخبار */
+.last-news_menu li, .fast-menu li {
+    margin-top: 1.5rem;
+}
+
+.last-news_menu li a, .fast-menu li a {
+    color: #1f2937;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.last-news_menu li a:hover, .fast-menu li a:hover {
+    color: #16a34a; /* تغییر رنگ هنگام hover */
+}
+
+.news-letter{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+/* استایل عنوان اشتراک در خبرنامه */
+.news-letter-txt {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* کانتینر فیلد ورودی و دکمه */
+.newsletter-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 1.5rem;
+    direction: rtl;
+}
+
+.newsletter-container input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #22c55e;
+    border-radius: 5px;
+    background-color: #f1f5f9;
+    color: #333;
+    font-size: 1rem;
+    margin-left: 10px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.newsletter-container input[type="text"]::placeholder {
+    color: #888;
+    text-align: right;
+}
+
+.newsletter-container button {
+    background-color: #00fd5d;
+    color: #0e0d0d;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.newsletter-container button:hover {
+    background-color: #16a34a;
+}

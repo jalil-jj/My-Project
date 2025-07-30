@@ -1,0 +1,56 @@
+/* ============================== Content Main Style ============================== */
+.order {
+  border-right: 2px solid #2bce56;
+  padding-right: 3rem;
+}
+
+.order__table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 1rem; /* فاصله عمودی بین ردیف‌ها */
+}
+
+.order__table-header {
+  border-bottom: 1px solid #ccc;
+}
+
+.order__table-header-item {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+  text-align: right;
+}
+
+.order__table-body-list {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.order__table-body-item {
+  font-size: 1.4rem;
+  padding: 1.2rem 1rem;
+  text-align: right;
+}
+
+.order__table-body-btn {
+  display: block;
+  margin: 0.5rem auto;
+  background-color: #2bce56;
+  color: var(--white-color);
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 0.7rem 1rem;
+  max-width: 8rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.order__table-body-btn:hover {
+  color: var(--white-color);
+  background-color: #33b355;
+}
+
+/* ============================== Content Main Style ============================== */
